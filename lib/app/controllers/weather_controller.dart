@@ -3,6 +3,7 @@ import 'package:weatherapp/app/data/models/current_weather_model.dart';
 import 'package:weatherapp/app/data/models/forecast_models.dart';
 import 'package:weatherapp/app/data/models/location_model.dart';
 import 'package:weatherapp/app/data/repositories/weather_repository.dart';
+import 'package:weatherapp/app/utils/constants.dart';
 
 class WeatherController extends GetxController {
   final WeatherRepository _repository = Get.find();
@@ -10,7 +11,7 @@ class WeatherController extends GetxController {
   final _forecast = Rxn<ForecastResponse>();
   final _isLoading = false.obs;
   final _error = ''.obs;
-  final _selectedCity = 'Lima'.obs;
+  final _selectedCity = Constants.defaultCity.obs;
   final _isCelsius = true.obs;
   final _selectedDays = 7.obs;
 
