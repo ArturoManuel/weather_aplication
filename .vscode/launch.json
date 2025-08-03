@@ -1,0 +1,47 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Android Emulator",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "emulator-5554"
+        },
+        {
+            "name": "Android Físico (SM A346M)",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "RFCW60MFBJA"
+        },
+        {
+            "name": "Pixel 5 (Emulador)",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "Pixel_5_API_30"
+        },
+        {
+            "name": "Medium Phone (Emulador)",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "Medium_Phone_API_32"
+        },
+        {
+            "name": "Cualquier Android",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "${command:dart.promptForDeviceId}"
+        },
+        {
+            "name": "Edge",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "edge"
+        },
+        {
+            "name": "Todos los Dispositivos",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "all"
+        }
+    ]
+}
