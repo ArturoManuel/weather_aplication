@@ -9,6 +9,17 @@ Una aplicación de clima desarrollada con Flutter que muestra información meteo
 - Android: minSdkVersion 21 (Android 5.0 Lollipop)
 - iOS: iOS 11.0+
 
+- ### Versiones de Android
+
+La aplicación está configurada para:
+
+- **minSdkVersion**: 21 (Android 5.0 Lollipop)
+- **targetSdkVersion**: 34 (Android 14)
+- **compileSdkVersion**: 34 (Android 14)
+- **NDK Version**: 27.0.12077973
+
+Para modificar estos valores, edita el archivo [android/app/build.gradle.kts](cci:7://file:///c:/Users/Arturon/WindSurf/weatherapp/android/app/build.gradle.kts:0:0-0:0):
+
 ## Configuración del Proyecto
 
 ### Variables de Entorno
